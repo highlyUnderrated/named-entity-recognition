@@ -1,0 +1,5 @@
+/nlp-flask/__pycache__
+/nlp-flask/model/pytorch_model.bin
+/nlp-node/node_modules
+logs
+/nlp-node/package-lock.json

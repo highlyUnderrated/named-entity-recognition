@@ -1,0 +1,39 @@
+Korean NLP Named Entity Extraction Performance Metrics
+
+       Labels    Precision   Recall  F1-score   Support
+
+         AFW       0.63      0.65      0.64       375
+         ANM       0.82      0.82      0.82       683
+         CVL       0.86      0.86      0.86      5324
+         DAT       0.93      0.94      0.93      2392
+         EVT       0.78      0.80      0.79      1020
+         FLD       0.68      0.70      0.69       226
+         LOC       0.88      0.86      0.87      1995
+         MAT       0.18      0.18      0.18        11
+         NUM       0.92      0.93      0.92      5089
+         ORG       0.88      0.88      0.88      3689
+         PER       0.90      0.90      0.90      4182
+         PLT       0.50      0.33      0.40        33
+         TIM       0.86      0.93      0.89       302
+         TRM       0.80      0.76      0.78      1781
+
+   micro avg       0.87      0.88      0.87     27102
+   macro avg       0.76      0.75      0.75     27102
+weighted avg       0.87      0.88      0.87     27102
+
+LEGEND			
+Sr.No.	Object name category	    Labels  	Description
+1	    PERSON	                    PER	        Reality, virtual, etc.
+2	    FIELD	                    FLD	        Academic field and theory, law, technology, etc.
+3	    ARTIFACTS_WORKS	            AFW	        An object created by man as an artifact
+4	    ORGANIZATION	            ORG	        Includes both meetings/conferences with organizations and organizations
+5	    LOCATION	                LOC	        Name of region and administrative district, etc.
+6	    CIVILIZATION	            CVL	        Terms related to civilization and culture
+7	    DATE	                    DAT	        date
+8	    TIME	                    TIM	        time
+9	    NUMBER	                    NUM	        number
+10	    EVENT	                    EVT	        Names and events of specific events and accidents
+11	    ANIMAL	                    ANM	        animal
+12	    PLANT	                    PLT	        plant
+13	    MATERIAL	                MAT	        Metals, rocks, chemicals, etc.
+14	    TERM	                    TRM	        General terminology such as medical terms and IT related term

@@ -1,0 +1,35 @@
+# ***************************************************************************
+# * Changelog										
+# * All notable changes to this project will be documented in this file.	
+# ***************************************************************************
+# *
+# * Author				: Arhaam Patvi
+# *
+# * Date created		: 11/01/2021
+# *
+# * Purpose			    : docker-compose to build & run nlp-node + nlp-flask
+# *
+# * Revision History	:
+# *
+# * Date			Author			    Jira			Functionality 
+# * 
+# *
+# ***************************************************************************
+
+version: "3.8"
+services:
+  # NLP - Node Server
+  nlp-node:
+    build:
+      context: "./nlp-node/"
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./logs:/usr/src/app/logs"
+      - "./nlp-node/resource:/usr/src/app/resource"
+  # NLP - Flask Server
+  nlp-flask:
+    build:
+      context: "./nlp-flask/"
+    ports:
+      - "30080:30080"
