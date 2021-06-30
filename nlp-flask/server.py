@@ -1,22 +1,4 @@
-# ***************************************************************************************************************
-# * Changelog										
-# * All notable changes to this project will be documented in this file.	
-# ***************************************************************************************************************
-# *
-# * Author				: Akash Singh
-# *
-# * Date created		: 11/01/2021
-# *
-# * Purpose			    : English Flair NLP API
-# *
-# * Revision History	:
-# *
-# * Date			Author			    Jira			            Functionality 
-# * 12/01/2021     Akash Singh         EC-583          Added Status Codes & Try-Except for Error Handling
-# * 18/01/2021     Akash Singh         EC-636          Code Refactored to support NLP Node Layer
-# * 25/01/2021     Akash Singh      EC-680, EC-672          Added English & Korean Test API
-# ***************************************************************************************************************
-#
+
 #Importing koalanlp function from Korean Prediction Script
 from predict import kornlp
 #Importing KobertModelLoader function from Korean Prediction Script

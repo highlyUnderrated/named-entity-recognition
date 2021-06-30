@@ -1,20 +1,3 @@
-// *******************************************************************************************
-// * Changelog										
-// * All notable changes to this project will be documented in this file.	
-// *******************************************************************************************
-// *
-// * Author             : Akash Singh
-// *
-// * Date created       : 18/01/2021
-// *
-// * Purpose            : NLP Node Layer APIs
-// *
-// * Revision History	:
-// *
-// * Date			Author			   Jira			           Functionality 
-// * 25/01/2021   Akash Singh      EC-672,EC-680     Added Test APIs for Korean & English NLP
-// * 27/01/2021   Akash Singh         EC-694              Property Reader for Imports
-// *******************************************************************************************
 
 // IMPORTS
 const axios = require("axios");

@@ -1,19 +1,3 @@
-// **********************************************************************
-// * Changelog										
-// * All notable changes to this project will be documented in this file.	
-// **********************************************************************
-// *
-// * Author             : Akash Singh
-// *
-// * Date created       : 25/01/2021
-// *
-// * Purpose            : API Response Function
-// *
-// * Revision History	:
-// *
-// * Date			Author			Jira			Functionality 
-// * 
-// **********************************************************************
 
 // ERROR RESPONSE FUNCTION
 function errorResponse(message) {

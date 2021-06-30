@@ -1,19 +1,3 @@
-# ***************************************************************************************************************
-# * Changelog										
-# * All notable changes to this project will be documented in this file.	
-# ***************************************************************************************************************
-# *
-# * Author				: Akash Singh
-# *
-# * Date created		: 18/01/2021
-# *
-# * Purpose			    : Korean KoBERT Model Tokenizer Script
-# *
-# * Revision History	:
-# *
-# * Date			Author			    Jira			Functionality 
-# *
-# ***************************************************************************************************************
 
 """ Tokenization classes for KoBert model."""
 

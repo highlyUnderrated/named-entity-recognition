@@ -1,7 +1,7 @@
 {
   "name": "nlp-node",
   "version": "1.0.0",
-  "description": "EC-Plugin-NLP Node Code",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

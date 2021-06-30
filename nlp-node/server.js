@@ -1,20 +1,3 @@
-// ****************************************************************************
-// * Changelog										
-// * All notable changes to this project will be documented in this file.	
-// ****************************************************************************
-// *
-// * Author             : Akash Singh
-// *
-// * Date created       : 18/01/2021
-// *
-// * Purpose            : NLP Node Layer Server
-// *
-// * Revision History	:
-// *
-// * Date			Author			Jira			  Functionality 
-// * 27/01/2021   Akash Singh      EC-694       Property Reader Implemented
-// ****************************************************************************
-
 // IMPORTS
 const express = require("express");
 const cors = require("cors");

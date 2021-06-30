@@ -1,20 +1,3 @@
-# ***************************************************************************
-# * Changelog										
-# * All notable changes to this project will be documented in this file.	
-# ***************************************************************************
-# *
-# * Author				: Arhaam Patvi
-# *
-# * Date created		: 11/01/2021
-# *
-# * Purpose			    : docker-compose to build & run nlp-node + nlp-flask
-# *
-# * Revision History	:
-# *
-# * Date			Author			    Jira			Functionality 
-# * 
-# *
-# ***************************************************************************
 
 version: "3.8"
 services:

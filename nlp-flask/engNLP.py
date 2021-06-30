@@ -1,20 +1,4 @@
-# ***************************************************************************
-# * Changelog										
-# * All notable changes to this project will be documented in this file.	
-# ***************************************************************************
-# *
-# * Author				: Akash Singh
-# *
-# * Date created		: 11/01/2021
-# *
-# * Purpose			    : English Flair NLP Extraction Script
-# *
-# * Revision History	:
-# *
-# * Date			Author			    Jira			Functionality 
-# * 25/01/2021    Akash Singh          EC-680       Added English Test API
-# ***************************************************************************
-#
+
 #Importing Flair Dependencies & Segtok Segmenter
 from flair.data import Sentence
 from flair.models import SequenceTagger
